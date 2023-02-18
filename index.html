@@ -186,7 +186,8 @@
 
   <body>
     <main>
-      <video class="video" loop="loop" muted="muted" autoplay="autoplay" height= "100%"">
+
+      <video class="video" loop="loop" muted="muted" autoplay="autoplay" height= "100%" id="hifumivideo">
         <source src="video.mp4" type="video/mp4" />
       </video>
 
@@ -200,7 +201,10 @@
         document.querySelector("body").addEventListener("click", () => {
           video.muted = false;
         });
+        video.volume = 0.2;
       </script>
     </main>
+
+    
   </body>
 </html>

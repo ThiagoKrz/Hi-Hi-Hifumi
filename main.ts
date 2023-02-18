@@ -8,3 +8,5 @@ const server = new Server({
 server.start();
 
 console.log("http://localhost:8000");
+
+
